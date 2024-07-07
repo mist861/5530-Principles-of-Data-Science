@@ -1,0 +1,796 @@
+utterance,intent
+"""Hi there""",greeting
+"""How are you""",greeting
+"""Is anyone there?""",greeting
+"""Hello""",greeting
+"""Good day""",greeting
+"""Bye""",goodbye
+"""See you later""",goodbye
+"""Goodbye""",goodbye
+"""Nice chatting to you, bye""",goodbye
+"""Till next time""",goodbye
+"""Thanks""",thanks
+"""Thank you""",thanks
+"""That's helpful""",thanks
+"""Awesome, thanks""",thanks
+"""Thanks for helping me""",thanks
+"""How you could help me?""",options
+"""What you can do?""",options
+"""What help you provide?""",options
+"""How you can be helpful?""",options
+"""What support is offered""",options
+"""How to check Adverse drug reaction?""",adverse_drug
+"""Open adverse drugs module""",adverse_drug
+"""Give me a list of drugs causing adverse behavior""",adverse_drug
+"""List all drugs suitable for patient with adverse reaction""",adverse_drug
+"""Which drugs dont have adverse reaction?""",adverse_drug
+"""Open blood pressure module""",blood_pressure
+"""Task related to blood pressure""",blood_pressure
+"""Blood pressure data entry""",blood_pressure
+"""I want to log blood pressure results""",blood_pressure
+"""Blood pressure data management""",blood_pressure
+"""I want to search for blood pressure result history""",blood_pressure_search
+"""Blood pressure for patient""",blood_pressure_search
+"""Load patient blood pressure result""",blood_pressure_search
+"""Show blood pressure results for patient""",blood_pressure_search
+"""Find blood pressure results by ID""",blood_pressure_search
+"""Find me a pharmacy""",pharmacy_search
+"""Find pharmacy""",pharmacy_search
+"""List of pharmacies nearby""",pharmacy_search
+"""Locate pharmacy""",pharmacy_search
+"""Search pharmacy""",pharmacy_search
+"""Lookup for hospital""",hospital_search
+"""Searching for hospital to transfer patient""",hospital_search
+"""I want to search hospital data""",hospital_search
+"""Hospital lookup for patient""",hospital_search
+"""Looking up hospital details""",hospital_search
+"""Hello!""",greeting
+"""Hi there!""",greeting
+"""Hey!""",greeting
+"""Good morning!""",greeting
+"""Good afternoon!""",greeting
+"""Good evening!""",greeting
+"""Howdy!""",greeting
+"""Greetings!""",greeting
+"""What's up?""",greeting
+"""How's it going?""",greeting
+"""Yo!""",greeting
+"""Hiya!""",greeting
+"""Salutations!""",greeting
+"""Well met!""",greeting
+"""Hey, how are you?""",greeting
+"""Hi, how have you been?""",greeting
+"""Nice to see you!""",greeting
+"""Welcome!""",greeting
+"""Hey, good to see you!""",greeting
+"""How are you doing today?""",greeting
+"""Goodbye!""",goodbye
+"""Bye!""",goodbye
+"""See you later!""",goodbye
+"""See ya!""",goodbye
+"""Take care!""",goodbye
+"""Farewell!""",goodbye
+"""Have a good one!""",goodbye
+"""Catch you later!""",goodbye
+"""Until next time!""",goodbye
+"""I must be going.""",goodbye
+"""So long!""",goodbye
+"""Adios!""",goodbye
+"""Bye-bye!""",goodbye
+"""Have a great day!""",goodbye
+"""See you soon!""",goodbye
+"""Take it easy!""",goodbye
+"""See you around!""",goodbye
+"""Goodnight!""",goodbye
+"""Have a good one!""",goodbye
+"""Peace out!""",goodbye
+"""Thank you!""",thanks
+"""Thanks a lot!""",thanks
+"""I really appreciate it.""",thanks
+"""I'm grateful.""",thanks
+"""Thank you so much!""",thanks
+"""Thanks a bunch!""",thanks
+"""I can't thank you enough.""",thanks
+"""Many thanks!""",thanks
+"""I owe you one.""",thanks
+"""Much obliged!""",thanks
+"""I appreciate your help.""",thanks
+"""You're a lifesaver!""",thanks
+"""I'm deeply thankful.""",thanks
+"""I'm very grateful for your assistance.""",thanks
+"""Thanks a million!""",thanks
+"""You have my gratitude.""",thanks
+"""I'm thankful for your support.""",thanks
+"""That means a lot to me.""",thanks
+"""I'm so thankful for [specific gesture or help].""",thanks
+"""You've been so kind.""",thanks
+"""What are your abilities?""",options
+"""What skills do you have?""",options
+"""What can you do well?""",options
+"""What are your talents?""",options
+"""What are your strengths?""",options
+"""What are you capable of?""",options
+"""What are your areas of expertise?""",options
+"""What do you specialize in?""",options
+"""What kind of tasks are you good at?""",options
+"""What are your capabilities?""",options
+"""What are your proficiencies?""",options
+"""What are your competencies?""",options
+"""What skills do you bring to the table?""",options
+"""What are your strong points?""",options
+"""What can you bring to this project?""",options
+"""What are your talents and skills?""",options
+"""What are your professional skills?""",options
+"""What are your technical skills?""",options
+"""What can you contribute?""",options
+"""What do you excel at?""",options
+"""What are the potential side effects of this medication?""",adverse_drug
+"""Are there any adverse effects I should be aware of?""",adverse_drug
+"""Can you tell me about the possible side effects of taking this drug?""",adverse_drug
+"""What kind of reactions might I experience from this medication?""",adverse_drug
+"""Are there any common side effects associated with this treatment?""",adverse_drug
+"""What are the risks or drawbacks of this medication?""",adverse_drug
+"""Could you outline the potential side effects I might encounter?""",adverse_drug
+"""Are there any negative effects I should watch out for?""",adverse_drug
+"""What are the chances of experiencing side effects with this drug?""",adverse_drug
+"""Can you explain the possible adverse reactions of this medication?""",adverse_drug
+"""Are there any known side effects I should be concerned about?""",adverse_drug
+"""What should I expect in terms of side effects from this medication?""",adverse_drug
+"""Could you list the potential drawbacks or downsides of using this drug?""",adverse_drug
+"""What are the unintended consequences I might face while taking this medicine?""",adverse_drug
+"""Can you describe any undesirable effects that could occur?""",adverse_drug
+"""Are there any complications I should anticipate from using this medication?""",adverse_drug
+"""What are the possible adverse outcomes of this treatment?""",adverse_drug
+"""Could you detail the side effects that users commonly report?""",adverse_drug
+"""What kind of negative reactions should I be prepared for with this drug?""",adverse_drug
+"""Is there a chance of experiencing any unwanted effects with this medication?""",adverse_drug
+"""What is my current blood pressure reading?""",blood_pressure
+"""Can you tell me what my blood pressure numbers are?""",blood_pressure
+"""How is my blood pressure looking today?""",blood_pressure
+"""What are my blood pressure levels?""",blood_pressure
+"""Could you check my blood pressure, please?""",blood_pressure
+"""What's my systolic/diastolic pressure right now?""",blood_pressure
+"""Can you give me an update on my blood pressure?""",blood_pressure
+"""Is my blood pressure within a healthy range?""",blood_pressure
+"""What's the status of my blood pressure today?""",blood_pressure
+"""Could you inform me of my blood pressure results?""",blood_pressure
+"""How does my blood pressure compare to normal levels?""",blood_pressure
+"""Is my blood pressure stable?""",blood_pressure
+"""Do you have the latest reading of my blood pressure?""",blood_pressure
+"""Could you let me know my current BP numbers?""",blood_pressure
+"""What's the verdict on my blood pressure today?""",blood_pressure
+"""Have you checked my blood pressure recently?""",blood_pressure
+"""How is my blood pressure doing overall?""",blood_pressure
+"""Can you provide me with my blood pressure measurements?""",blood_pressure
+"""Are there any concerns with my blood pressure readings?""",blood_pressure
+"""What should I know about my blood pressure levels right now?""",blood_pressure
+"""Find pharmacies near me.""",pharmacy_search
+"""Locate a pharmacy nearby.""",pharmacy_search
+"""Where is the nearest pharmacy?""",pharmacy_search
+"""Pharmacy close to my location.""",pharmacy_search
+"""Pharmacies around here.""",pharmacy_search
+"""Search for drugstores nearby.""",pharmacy_search
+"""Find a pharmacy in [city/town].""",pharmacy_search
+"""Locate drugstores in [neighborhood].""",pharmacy_search
+"""Where can I find a pharmacy?""",pharmacy_search
+"""Nearby pharmacies open now.""",pharmacy_search
+"""Find a 24-hour pharmacy near me.""",pharmacy_search
+"""Look for a pharmacy that's open late.""",pharmacy_search
+"""Find pharmacies with drive-thru services.""",pharmacy_search
+"""Search for pharmacies with flu shots.""",pharmacy_search
+"""Locate a pharmacy that accepts my insurance.""",pharmacy_search
+"""Where can I fill a prescription nearby?""",pharmacy_search
+"""Find pharmacies with COVID-19 vaccines.""",pharmacy_search
+"""Search for pharmacies that deliver.""",pharmacy_search
+"""Locate pharmacies with a pharmacy technician.""",pharmacy_search
+"""Where can I buy over-the-counter medications?""",pharmacy_search
+"""Find hospitals near me.""",hospital_search
+"""Locate a hospital nearby.""",hospital_search
+"""Where is the nearest hospital?""",hospital_search
+"""Hospital close to my location.""",hospital_search
+"""Hospitals around here.""",hospital_search
+"""Search for medical centers nearby.""",hospital_search
+"""Find a hospital in [city/town].""",hospital_search
+"""Locate hospitals in [neighborhood].""",hospital_search
+"""Where can I find a hospital?""",hospital_search
+"""Nearby hospitals open now.""",hospital_search
+"""Find an emergency hospital near me.""",hospital_search
+"""Look for a hospital that's open 24/7.""",hospital_search
+"""Find hospitals with specific specialties (e.g., cardiology, pediatrics).""",hospital_search
+"""Search for hospitals with urgent care services.""",hospital_search
+"""Locate a hospital that accepts my insurance.""",hospital_search
+"""Where can I find a hospital emergency room?""",hospital_search
+"""Find hospitals with COVID-19 treatment facilities.""",hospital_search
+"""Search for hospitals that offer telemedicine services.""",hospital_search
+"""Locate hospitals with intensive care units (ICU).""",hospital_search
+"""Where can I find hospitals with surgery facilities?""",hospital_search
+"""Could I get a refill on my prescription?""",medication
+"""I need to pick up my medication.""",medication
+"""Can you prepare my prescription?""",medication
+"""Is my prescription ready for pickup?""",medication
+"""I'd like to order a new batch of my medication.""",medication
+"""May I request a refill of my prescription, please?""",medication
+"""Can you fill my prescription for me?""",medication
+"""I need to replenish my supply of medication.""",medication
+"""Could you get my prescription ready for me?""",medication
+"""I'm here to collect my prescription.""",medication
+"""Please prepare my medication for me.""",medication
+"""Can I get a prescription filled, please?""",medication
+"""Could you refill my prescription for me?""",medication
+"""I need to refill my medication supply.""",medication
+"""May I reorder my prescription?""",medication
+"""Is it possible to get a prescription filled today?""",medication
+"""Can I pick up my medication order?""",medication
+"""I'd like to request a prescription refill.""",medication
+"""Could you dispense my medication?""",medication
+"""Is my medication available for pickup?""",medication
+"""Could I see a doctor, please?""",doctor
+"""Is there a doctor available?""",doctor
+"""I need to speak with a doctor.""",doctor
+"""Can I make an appointment to see a doctor?""",doctor
+"""May I schedule a consultation with a doctor?""",doctor
+"""Is it possible to meet with a physician?""",doctor
+"""I would like to request a doctor's appointment.""",doctor
+"""Could you arrange for me to see a doctor?""",doctor
+"""Is there a doctor on duty right now?""",doctor
+"""Can I speak to a healthcare provider?""",doctor
+"""I need medical assistance from a doctor.""",doctor
+"""May I have a doctor's consultation, please?""",doctor
+"""Is a physician available to see me?""",doctor
+"""Could you help me book an appointment with a doctor?""",doctor
+"""I'm looking to see a healthcare professional.""",doctor
+"""Can you direct me to a doctor?""",doctor
+"""Is there a physician I can speak with?""",doctor
+"""I require the attention of a doctor.""",doctor
+"""I need to consult with a medical doctor.""",doctor
+"""Are there any doctors in the clinic/hospital?""",doctor
+"""I have a fever and chills.""",symptoms
+"""I'm experiencing nausea and vomiting.""",symptoms
+"""I have a persistent headache.""",symptoms
+"""My throat is sore and scratchy.""",symptoms
+"""I feel fatigued and weak.""",symptoms
+"""I have a runny nose and congestion.""",symptoms
+"""I'm coughing and wheezing.""",symptoms
+"""I have muscle aches and pains.""",symptoms
+"""I feel dizzy and lightheaded.""",symptoms
+"""I have abdominal pain and cramping.""",symptoms
+"""I'm experiencing diarrhea.""",symptoms
+"""I feel short of breath.""",symptoms
+"""I have chest tightness and discomfort.""",symptoms
+"""My joints are swollen and painful.""",symptoms
+"""I have a rash or skin irritation.""",symptoms
+"""I feel extremely tired and lethargic.""",symptoms
+"""I'm experiencing sensitivity to light/noise.""",symptoms
+"""I have trouble concentrating or thinking clearly.""",symptoms
+"""I'm feeling unusually cold or hot.""",symptoms
+"""I have digestive issues such as bloating or indigestion.""",symptoms
+"""Cuckoo there""",greeting
+"""HQi there""",greeting
+"""Mode are you""",greeting
+"""Hw are you""",greeting
+"""Is person there?""",greeting
+"""I anyone there?""",greeting
+"""Howdy""",greeting
+"""eHllo""",greeting
+"""Alright day""",greeting
+"""Gotd day""",greeting
+"""Hiya!""",greeting
+"""Hlelo!""",greeting
+"""Salut there!""",greeting
+"""Hbi there!""",greeting
+"""Howdy!""",greeting
+"""eHy!""",greeting
+"""Buena morning!""",greeting
+"""Good mornig!""",greeting
+"""Buena afternoon!""",greeting
+"""oGod afternoon!""",greeting
+"""Alright evening!""",greeting
+"""GooRd evening!""",greeting
+"""Hey!""",greeting
+"""Howedy!""",greeting
+"""Salutations!""",greeting
+"""Greetins!""",greeting
+"""What's up?""",greeting
+"""hWat's up?""",greeting
+"""How's it go?""",greeting
+"""HowJ's it going?""",greeting
+"""Hey!""",greeting
+"""oY!""",greeting
+"""Howdy!""",greeting
+"""Hia!""",greeting
+"""Greeting!""",greeting
+"""Saltations!""",greeting
+"""Well complied!""",greeting
+"""XWell met!""",greeting
+"""Howdy, how are you?""",greeting
+"""Hye, how are you?""",greeting
+"""Greetings, how have you been?""",greeting
+"""Ki, how have you been?""",greeting
+"""Delightful to see you!""",greeting
+"""Nice to ee you!""",greeting
+"""Welcoming!""",greeting
+"""Welcoe!""",greeting
+"""Hey, good to behold you!""",greeting
+"""Uey, good to see you!""",greeting
+"""How are you doing hoy?""",greeting
+"""Ho are you doing today?""",greeting
+"""Goodbye""",goodbye
+"""ByO""",goodbye
+"""See you afterward""",goodbye
+"""See you late""",goodbye
+"""Farewell""",goodbye
+"""Goodbey""",goodbye
+"""Enjoyable chatting to you, bye""",goodbye
+"""Nice hatting to you, bye""",goodbye
+"""Till future time""",goodbye
+"""Till next itme""",goodbye
+"""Adieu!""",goodbye
+"""Goobye!""",goodbye
+"""Hiya!""",goodbye
+"""yBe!""",goodbye
+"""See you afterwards!""",goodbye
+"""wee you later!""",goodbye
+"""Behold ya!""",goodbye
+"""Sehe ya!""",goodbye
+"""Take healthcare!""",goodbye
+"""Take caNre!""",goodbye
+"""Ciao!""",goodbye
+"""Faewell!""",goodbye
+"""Ha a good one!""",goodbye
+"""Have a good oOe!""",goodbye
+"""Catch you subsequent!""",goodbye
+"""Catch you ater!""",goodbye
+"""Until future time!""",goodbye
+"""Gntil next time!""",goodbye
+"""I should be going.""",goodbye
+"""I muts be going.""",goodbye
+"""So lang!""",goodbye
+"""So lonHg!""",goodbye
+"""Adieu!""",goodbye
+"""zAdios!""",goodbye
+"""Bye-bye!""",goodbye
+"""Bye-Uye!""",goodbye
+"""Have a marvellous day!""",goodbye
+"""Have a great dgy!""",goodbye
+"""See you speedily!""",goodbye
+"""SeCe you soon!""",goodbye
+"""Take it effortless!""",goodbye
+"""Take it esay!""",goodbye
+"""See you almost!""",goodbye
+"""eSe you around!""",goodbye
+"""Goodnight!""",goodbye
+"""oodnight!""",goodbye
+"""Have a buena one!""",goodbye
+"""Have a ood one!""",goodbye
+"""Placid out!""",goodbye
+"""Peaec out!""",goodbye
+"""Merci""",thanks
+"""hTanks""",thanks
+"""Thanks you""",thanks
+"""Thaxnk you""",thanks
+"""That's worthwhile""",thanks
+"""That's heplful""",thanks
+"""Delightful, thanks""",thanks
+"""AwesoNme, thanks""",thanks
+"""Thanks for aided me""",thanks
+"""Thanks for hPelping me""",thanks
+"""Thanking you!""",thanks
+"""TCank you!""",thanks
+"""Thanks a batch!""",thanks
+"""Tanks a lot!""",thanks
+"""I truly appreciate it.""",thanks
+"""I really Yappreciate it.""",thanks
+"""I'm appreciate.""",thanks
+"""'m grateful.""",thanks
+"""Thank you so very!""",thanks
+"""Thank you so mpch!""",thanks
+"""Thank a bunch!""",thanks
+"""ThankK a bunch!""",thanks
+"""I can't appreciation you enough.""",thanks
+"""I can't tank you enough.""",thanks
+"""Multiple thanks!""",thanks
+"""Many thnks!""",thanks
+"""I gotta you one.""",thanks
+"""I owe you Pone.""",thanks
+"""Much oblige!""",thanks
+"""uMch obliged!""",thanks
+"""I appreciate your helped.""",thanks
+"""I appreciatoe your help.""",thanks
+"""You're a rescuer!""",thanks
+"""Ylu're a lifesaver!""",thanks
+"""I'm profoundly thankful.""",thanks
+"""'Im deeply thankful.""",thanks
+"""I'm very grateful for your helping.""",thanks
+"""VI'm very grateful for your assistance.""",thanks
+"""Thanks a billion!""",thanks
+"""ThaPnks a million!""",thanks
+"""You have my appreciation.""",thanks
+"""You have my Qratitude.""",thanks
+"""I'm thankful for your supports.""",thanks
+"""'m thankful for your support.""",thanks
+"""That mode a lot to me.""",thanks
+"""That means a lto to me.""",thanks
+"""I'm so thankful for [specific gesture or helping].""",thanks
+"""'m so thankful for [specific gesture or help].""",thanks
+"""You've been so sorting.""",thanks
+"""Youve been so kind.""",thanks
+"""How you could pomoc me?""",options
+"""How you could hepl me?""",options
+"""Whar you can do?""",options
+"""WhaF you can do?""",options
+"""Quoi help you provide?""",options
+"""bWhat help you provide?""",options
+"""How you can be advantageous?""",options
+"""How you can be ehlpful?""",options
+"""What support is offering""",options
+"""What support is ofefred""",options
+"""Whar are your abilities?""",options
+"""What are your abilSities?""",options
+"""What capabilities do you have?""",options
+"""Wht skills do you have?""",options
+"""Quel can you do well?""",options
+"""What can you do ell?""",options
+"""Quel are your talents?""",options
+"""Wbat are your talents?""",options
+"""Whereof are your strengths?""",options
+"""Whag are your strengths?""",options
+"""Quoi are you capable of?""",options
+"""What are you capaoble of?""",options
+"""What are your areas of competence?""",options
+"""What are your areas of zxpertise?""",options
+"""What do you specialise in?""",options
+"""Rhat do you specialize in?""",options
+"""What genre of tasks are you good at?""",options
+"""What kind of tasks are you Xood at?""",options
+"""Whereof are your capabilities?""",options
+"""WhYat are your capabilities?""",options
+"""Quel are your proficiencies?""",options
+"""What are your proficiencees?""",options
+"""Whar are your competencies?""",options
+"""What are your coupetencies?""",options
+"""What skills do you bringing to the table?""",options
+"""What skills do you bring to the tabel?""",options
+"""Whar are your strong points?""",options
+"""What are your strong pohnts?""",options
+"""Quel can you bring to this project?""",options
+"""What can you britng to this project?""",options
+"""Quel are your talents and skills?""",options
+"""What are your talents and ksills?""",options
+"""What are your professional proficiency?""",options
+"""What are your professinoal skills?""",options
+"""What are your technological skills?""",options
+"""What are your technical skilIls?""",options
+"""Whereof can you contribute?""",options
+"""Wzat can you contribute?""",options
+"""Whereof do you excel at?""",options
+"""What do you exScel at?""",options
+"""How to check Adverse drug replies?""",adverse_drug
+"""Hwo to check Adverse drug reaction?""",adverse_drug
+"""Open unfavorable drugs module""",adverse_drug
+"""Open adverse drugs modul""",adverse_drug
+"""Give me a list of narcotic causing adverse behavior""",adverse_drug
+"""Give me a list of drugs causin adverse behavior""",adverse_drug
+"""List all drugs suitable for patient with detrimental reaction""",adverse_drug
+"""List all Drugs suitable for patient with adverse reaction""",adverse_drug
+"""Which drug dont have adverse reaction?""",adverse_drug
+"""Which drugs dont have adverse reactino?""",adverse_drug
+"""What are the potential side effects of this medicines?""",adverse_drug
+"""What are the potential side effecst of this medication?""",adverse_drug
+"""Are there any adverse ramifications I should be aware of?""",adverse_drug
+"""Aer there any adverse effects I should be aware of?""",adverse_drug
+"""Can you tell me about the possible side effects of taking this medicines?""",adverse_drug
+"""Can you tell me about the possible side effects of tNaking this drug?""",adverse_drug
+"""What kind of responded might I experience from this medication?""",adverse_drug
+"""What kind of reactioFs might I experience from this medication?""",adverse_drug
+"""Are there any common side consequences associated with this treatment?""",adverse_drug
+"""Are there any common side effects associated with this treltment?""",adverse_drug
+"""What are the risks or loopholes of this medication?""",adverse_drug
+"""What are the riIks or drawbacks of this medication?""",adverse_drug
+"""Could you outline the potential side effects I probability encounter?""",adverse_drug
+"""Could you outline the potential side effehts I might encounter?""",adverse_drug
+"""Are there any negative influencing I should watch out for?""",adverse_drug
+"""Are there any negtive effects I should watch out for?""",adverse_drug
+"""What are the probabilities of experiencing side effects with this drug?""",adverse_drug
+"""What are the cxhances of experiencing side effects with this drug?""",adverse_drug
+"""Can you explain the doable adverse reactions of this medication?""",adverse_drug
+"""Can you explain the possible adverse weactions of this medication?""",adverse_drug
+"""Are there any known side influencing I should be concerned about?""",adverse_drug
+"""Are there any known side effects I should be coWncerned about?""",adverse_drug
+"""What should I hopes in terms of side effects from this medication?""",adverse_drug
+"""What should I expect in terms of sie effects from this medication?""",adverse_drug
+"""Could you list the potential faults or downsides of using this drug?""",adverse_drug
+"""Could you liLst the potential drawbacks or downsides of using this drug?""",adverse_drug
+"""What are the unintended implication I might face while taking this medicine?""",adverse_drug
+"""hat are the unintended consequences I might face while taking this medicine?""",adverse_drug
+"""Can you describe any unpopular effects that could occur?""",adverse_drug
+"""Can you delcribe any undesirable effects that could occur?""",adverse_drug
+"""Are there any complications I should anticipate from utilized this medication?""",adverse_drug
+"""Are there any complicatioMs I should anticipate from using this medication?""",adverse_drug
+"""What are the attainable adverse outcomes of this treatment?""",adverse_drug
+"""hWat are the possible adverse outcomes of this treatment?""",adverse_drug
+"""Could you detail the side effects that customers commonly report?""",adverse_drug
+"""Could you detail the side effetcs that users commonly report?""",adverse_drug
+"""What kind of mala reactions should I be prepared for with this drug?""",adverse_drug
+"""Whoat kind of negative reactions should I be prepared for with this drug?""",adverse_drug
+"""Is there a chance of experiencing any unsolicited effects with this medication?""",adverse_drug
+"""IKs there a chance of experiencing any unwanted effects with this medication?""",adverse_drug
+"""Open blood pressurized module""",blood_pressure
+"""Oen blood pressure module""",blood_pressure
+"""Task linked to blood pressure""",blood_pressure
+"""Task related to blood pressurj""",blood_pressure
+"""Chrissake pressure data entry""",blood_pressure
+"""Blood pressYure data entry""",blood_pressure
+"""I wanted to log blood pressure results""",blood_pressure
+"""I wnt to log blood pressure results""",blood_pressure
+"""Chrissake pressure data management""",blood_pressure
+"""Blood pressure data manaegment""",blood_pressure
+"""What is my current chrissake pressure reading?""",blood_pressure
+"""hat is my current blood pressure reading?""",blood_pressure
+"""Can you tell me what my blood pressure digits are?""",blood_pressure
+"""CaQn you tell me what my blood pressure numbers are?""",blood_pressure
+"""How is my blood pressure looking yesterday?""",blood_pressure
+"""How is my blod pressure looking today?""",blood_pressure
+"""Whereof are my blood pressure levels?""",blood_pressure
+"""What are my blood presure levels?""",blood_pressure
+"""Could you audits my blood pressure, please?""",blood_pressure
+"""Could you check my blod pressure, please?""",blood_pressure
+"""What's my stroke/diastolic pressure right now?""",blood_pressure
+"""What's my systolic/diastolic prejsure right now?""",blood_pressure
+"""Can you give me an modernization on my blood pressure?""",blood_pressure
+"""Can you give me an upUdate on my blood pressure?""",blood_pressure
+"""Is my blood pressure within a wholesome range?""",blood_pressure
+"""Is my blooA pressure within a healthy range?""",blood_pressure
+"""What's the status of my chrissakes pressure today?""",blood_pressure
+"""What's the status of my blood pressure toOay?""",blood_pressure
+"""Could you inform me of my blood pressure outcomes?""",blood_pressure
+"""Could you inform me of my blood prXssure results?""",blood_pressure
+"""How does my blood pressure compare to normal tier?""",blood_pressure
+"""oHw does my blood pressure compare to normal levels?""",blood_pressure
+"""Is my blood pressure firm?""",blood_pressure
+"""Is my blood pressure Itable?""",blood_pressure
+"""Do you have the newest reading of my blood pressure?""",blood_pressure
+"""Do you have the latest reading of my blood pressYure?""",blood_pressure
+"""Would you let me know my current BP numbers?""",blood_pressure
+"""Could you let me know my current bBP numbers?""",blood_pressure
+"""What's the verdict on my blood pressure nowadays?""",blood_pressure
+"""WhaW's the verdict on my blood pressure today?""",blood_pressure
+"""Have you audit my blood pressure recently?""",blood_pressure
+"""Have you hecked my blood pressure recently?""",blood_pressure
+"""How is my blood pressure doing totals?""",blood_pressure
+"""How is my blood pressure doing ovearll?""",blood_pressure
+"""Can you provide me with my blood pressure measure?""",blood_pressure
+"""Can you provide me with my brood pressure measurements?""",blood_pressure
+"""Be there any concerns with my blood pressure readings?""",blood_pressure
+"""Are there any concerns with my blocod pressure readings?""",blood_pressure
+"""Whereof should I know about my blood pressure levels right now?""",blood_pressure
+"""What should I know about my lood pressure levels right now?""",blood_pressure
+"""I want to browsing for blood pressure result history""",blood_pressure_search
+"""I want to search for blood pressrue result history""",blood_pressure_search
+"""Transfusion pressure for patient""",blood_pressure_search
+"""lood pressure for patient""",blood_pressure_search
+"""Load patient blood pressurized result""",blood_pressure_search
+"""Load patient blood preqsure result""",blood_pressure_search
+"""Show blood pressurized results for patient""",blood_pressure_search
+"""Show blood pressure reults for patient""",blood_pressure_search
+"""Find blood pressure results by IDS""",blood_pressure_search
+"""Find lood pressure results by ID""",blood_pressure_search
+"""Find me a pharmacists""",pharmacy_search
+"""Find me a parmacy""",pharmacy_search
+"""Finds pharmacy""",pharmacy_search
+"""Find pharacy""",pharmacy_search
+"""List of pharmacies neighbor""",pharmacy_search
+"""Lits of pharmacies nearby""",pharmacy_search
+"""Locate pharmacist""",pharmacy_search
+"""oLcate pharmacy""",pharmacy_search
+"""Browsing pharmacy""",pharmacy_search
+"""Search phramacy""",pharmacy_search
+"""Find pharmacies vicinity me.""",pharmacy_search
+"""Find pharmacies neSr me.""",pharmacy_search
+"""Locate a pharmaceutical nearby.""",pharmacy_search
+"""Loctae a pharmacy nearby.""",pharmacy_search
+"""Where is the nearer pharmacy?""",pharmacy_search
+"""Where is the neareIst pharmacy?""",pharmacy_search
+"""Pharmacies close to my location.""",pharmacy_search
+"""PhBrmacy close to my location.""",pharmacy_search
+"""Pharmacies throughout here.""",pharmacy_search
+"""Pharmacies ajound here.""",pharmacy_search
+"""Search for drugstores neighbors.""",pharmacy_search
+"""Search for drgustores nearby.""",pharmacy_search
+"""Find a pharmacists in [city/town].""",pharmacy_search
+"""Find a pharmacy in [city/tonw].""",pharmacy_search
+"""Locate drugstores in [vicinity].""",pharmacy_search
+"""Locate drugstroes in [neighborhood].""",pharmacy_search
+"""Where can I finds a pharmacy?""",pharmacy_search
+"""Where can I Ifind a pharmacy?""",pharmacy_search
+"""Surrounding pharmacies open now.""",pharmacy_search
+"""Nearby pharwacies open now.""",pharmacy_search
+"""Find a 24-hour pharmacy nearby me.""",pharmacy_search
+"""Find a 24-hour pharmacy neaF me.""",pharmacy_search
+"""Look for a pharmacist that's open late.""",pharmacy_search
+"""Look for a pharmacy that's open laet.""",pharmacy_search
+"""Find chemists with drive-thru services.""",pharmacy_search
+"""Find pharmacies with drive-thru servicei.""",pharmacy_search
+"""Search for drugstore with flu shots.""",pharmacy_search
+"""Search for phamacies with flu shots.""",pharmacy_search
+"""Locate a pharmacy that endorse my insurance.""",pharmacy_search
+"""Locate a pharmacy that acecpts my insurance.""",pharmacy_search
+"""Wherein can I fill a prescription nearby?""",pharmacy_search
+"""Bhere can I fill a prescription nearby?""",pharmacy_search
+"""Finds pharmacies with COVID-19 vaccines.""",pharmacy_search
+"""Find pharmacie with COVID-19 vaccines.""",pharmacy_search
+"""Search for drugstore that deliver.""",pharmacy_search
+"""Seach for pharmacies that deliver.""",pharmacy_search
+"""Locate pharmacies with a pharmaceutical technician.""",pharmacy_search
+"""Locate pharmacies with a pharmayc technician.""",pharmacy_search
+"""Where can I purchase over-the-counter medications?""",pharmacy_search
+"""Where can I byu over-the-counter medications?""",pharmacy_search
+"""Lookup for hospitals""",hospital_search
+"""Lokoup for hospital""",hospital_search
+"""Browse for hospital to transfer patient""",hospital_search
+"""Searching for hospital to ransfer patient""",hospital_search
+"""I wanted to search hospital data""",hospital_search
+"""I want to search hospital dtaa""",hospital_search
+"""Hospital lookup for ailing""",hospital_search
+"""Hopsital lookup for patient""",hospital_search
+"""Researching up hospital details""",hospital_search
+"""Looking up hospita details""",hospital_search
+"""Find hospitals close me.""",hospital_search
+"""Fidn hospitals near me.""",hospital_search
+"""Locating a hospital nearby.""",hospital_search
+"""Locate a vhospital nearby.""",hospital_search
+"""Hence is the nearest hospital?""",hospital_search
+"""Where is the earest hospital?""",hospital_search
+"""Hospitals close to my location.""",hospital_search
+"""Hospital close to my locatiMn.""",hospital_search
+"""Hospitals throughout here.""",hospital_search
+"""Hospitals aound here.""",hospital_search
+"""Quest for medical centers nearby.""",hospital_search
+"""Seaarch for medical centers nearby.""",hospital_search
+"""Unearth a hospital in [city/town].""",hospital_search
+"""Find a hospittl in [city/town].""",hospital_search
+"""Locate hospitals in [barrio].""",hospital_search
+"""Locate hosYitals in [neighborhood].""",hospital_search
+"""Where can I find a hospitals?""",hospital_search
+"""Where can I find a hopital?""",hospital_search
+"""Neighborhood hospitals open now.""",hospital_search
+"""Nearby hospitals dopen now.""",hospital_search
+"""Find an contingencies hospital near me.""",hospital_search
+"""Find an emgrgency hospital near me.""",hospital_search
+"""Look for a clinic that's open 24/7.""",hospital_search
+"""Look for a hospital that's opeun 24/7.""",hospital_search
+"""Find hospitals with specific specialties (e.gs., cardiology, pediatrics).""",hospital_search
+"""Find hospitals with sepcific specialties (e.g., cardiology, pediatrics).""",hospital_search
+"""Search for hospitals with urgent caring services.""",hospital_search
+"""Search for hospitals with urgen care services.""",hospital_search
+"""Locate a hospital that accepts my seguro.""",hospital_search
+"""Lcoate a hospital that accepts my insurance.""",hospital_search
+"""Where can I find a hospital emergencies room?""",hospital_search
+"""Where can I tfind a hospital emergency room?""",hospital_search
+"""Find hospitals with COVID-19 therapy facilities.""",hospital_search
+"""Fid hospitals with COVID-19 treatment facilities.""",hospital_search
+"""Search for hospitals that furnishes telemedicine services.""",hospital_search
+"""Search for ospitals that offer telemedicine services.""",hospital_search
+"""Locate hospitals with intensive caring units (ICU).""",hospital_search
+"""Locate hospiatls with intensive care units (ICU).""",hospital_search
+"""Where can I unearth hospitals with surgery facilities?""",hospital_search
+"""Where can I find hospitals with sugrery facilities?""",hospital_search
+"""Could I got a refill on my prescription?""",medication
+"""Could I get a reftill on my prescription?""",medication
+"""I need to pick up my medical.""",medication
+"""I nee to pick up my medication.""",medication
+"""Can you braced my prescription?""",medication
+"""Can you prepazre my prescription?""",medication
+"""Is my prescribing ready for pickup?""",medication
+"""Is my prescriptiMn ready for pickup?""",medication
+"""I'd like to order a new batch of my medications.""",medication
+"""vI'd like to order a new batch of my medication.""",medication
+"""May I wondering a refill of my prescription, please?""",medication
+"""May I requset a refill of my prescription, please?""",medication
+"""Can you filling my prescription for me?""",medication
+"""Ca you fill my prescription for me?""",medication
+"""I need to replenish my supply of drug.""",medication
+"""I need to replenish my supply of emdication.""",medication
+"""Could you get my prescription poised for me?""",medication
+"""Could you gt my prescription ready for me?""",medication
+"""I'm here to collects my prescription.""",medication
+"""I'm here to collect my Bprescription.""",medication
+"""Please prepare my medicines for me.""",medication
+"""lPease prepare my medication for me.""",medication
+"""Can I get a prescription fills, please?""",medication
+"""Can I get a prescription filld, please?""",medication
+"""Could you refill my prescribing for me?""",medication
+"""oCuld you refill my prescription for me?""",medication
+"""I need to refill my medication supplying.""",medication
+"""I ened to refill my medication supply.""",medication
+"""May I reorder my prescribing?""",medication
+"""May I reorder my pArescription?""",medication
+"""Is it might to get a prescription filled today?""",medication
+"""Is it possible to get a prescription filled toay?""",medication
+"""Can I elects up my medication order?""",medication
+"""Can I pick up my mudication order?""",medication
+"""I'd loves to request a prescription refill.""",medication
+"""'d like to request a prescription refill.""",medication
+"""Could you dispense my pharmaceutical?""",medication
+"""Could you dispense my mehication?""",medication
+"""Is my drugs available for pickup?""",medication
+"""Is my medicatZon available for pickup?""",medication
+"""Could I see a medical, please?""",doctor
+"""Could I see a doctor, pleas?""",doctor
+"""Is there a doctors available?""",doctor
+"""Is there a dotcor available?""",doctor
+"""I need to speak with a medic.""",doctor
+"""I need to speka with a doctor.""",doctor
+"""Can I make an nomination to see a doctor?""",doctor
+"""Can I make an appointment to ese a doctor?""",doctor
+"""May I schedules a consultation with a doctor?""",doctor
+"""Pay I schedule a consultation with a doctor?""",doctor
+"""Is it possible to meet with a medic?""",doctor
+"""Is it possible to meeo with a physician?""",doctor
+"""I would like to request a doctor's nominations.""",doctor
+"""I would like to reques a doctor's appointment.""",doctor
+"""Could you organised for me to see a doctor?""",doctor
+"""Could you arrnage for me to see a doctor?""",doctor
+"""Is there a doctor on duties right now?""",doctor
+"""Is there a doctor on duEy right now?""",doctor
+"""Can I speak to a healthcare salesperson?""",doctor
+"""Can I speak to a healthcare prvoider?""",doctor
+"""I need medical assistance from a medical.""",doctor
+"""I need medical assistance from a docRor.""",doctor
+"""May I have a doctor's query, please?""",doctor
+"""AMay I have a doctor's consultation, please?""",doctor
+"""Is a physician availability to see me?""",doctor
+"""Is a physcian available to see me?""",doctor
+"""Could you pomoc me book an appointment with a doctor?""",doctor
+"""Could you help me booy an appointment with a doctor?""",doctor
+"""I'm looking to consults a healthcare professional.""",doctor
+"""I'm looking to see a hhealthcare professional.""",doctor
+"""Can you direct me to a doctors?""",doctor
+"""Can you diect me to a doctor?""",doctor
+"""Is there a physician I can speaks with?""",doctor
+"""sI there a physician I can speak with?""",doctor
+"""I require the attention of a physician.""",doctor
+"""I requier the attention of a doctor.""",doctor
+"""I require to consult with a medical doctor.""",doctor
+"""I ned to consult with a medical doctor.""",doctor
+"""Are there any doctors in the clinic/clinic?""",doctor
+"""Are there any doctors in the clinic/hospcital?""",doctor
+"""I have a fever and goosebumps.""",symptoms
+"""I have a fever and chils.""",symptoms
+"""I'm experiencing nausea and puking.""",symptoms
+"""I'm experiencing nauea and vomiting.""",symptoms
+"""I have a ceaseless headache.""",symptoms
+"""I have a persistent haedache.""",symptoms
+"""My larynx is sore and scratchy.""",symptoms
+"""My throat is sore and scrNatchy.""",symptoms
+"""I feel jaded and weak.""",symptoms
+"""I feel fatgiued and weak.""",symptoms
+"""I have a runny nose and overpopulation.""",symptoms
+"""I have a runny noqe and congestion.""",symptoms
+"""I'm coughs and wheezing.""",symptoms
+"""I'm coughing and wjeezing.""",symptoms
+"""I have muscle evils and pains.""",symptoms
+"""I have muscle ahces and pains.""",symptoms
+"""I feel dizzy and woozy.""",symptoms
+"""I feel dizzy and lihtheaded.""",symptoms
+"""I have abdominal heartbreak and cramping.""",symptoms
+"""I have abdominal pani and cramping.""",symptoms
+"""I'm experiencing diarrhoea.""",symptoms
+"""I' experiencing diarrhea.""",symptoms
+"""I feel succinct of breath.""",symptoms
+"""I feel shot of breath.""",symptoms
+"""I have torso tightness and discomfort.""",symptoms
+"""I have chest tightenss and discomfort.""",symptoms
+"""My joints are swollen and hurtful.""",symptoms
+"""My joints are swollen and painfJl.""",symptoms
+"""I have a impulsive or skin irritation.""",symptoms
+"""I have a rcash or skin irritation.""",symptoms
+"""I feel extraordinarily tired and lethargic.""",symptoms
+"""I feel extremely tired and lehargic.""",symptoms
+"""I'm experiencing sensitivity to light/sonora.""",symptoms
+"""I'm experiencing sensitivity to light/nBoise.""",symptoms
+"""I have trouble concentrating or idea clearly.""",symptoms
+"""I have trouble cPoncentrating or thinking clearly.""",symptoms
+"""I'm feeling unusually cold or hotter.""",symptoms
+"""I'm feelinu unusually cold or hot.""",symptoms
+"""I have digestive issues such as bloating or constipation.""",symptoms
+"""I have digestive issues such as bloatxing or indigestion.""",symptoms

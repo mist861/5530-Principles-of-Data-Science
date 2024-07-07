@@ -1,0 +1,14 @@
+responses,intent
+Hello! How can I help?,greeting
+Have a nice day!,goodbye
+"You're welcome, I'm happy to help!",thanks
+"I'm sorry, I can't understand you.  Please reframe your question and ask again.",noanswer
+"I can assist you with identifying symptoms, finding your blood pressure, accessing your presriptions, or searching for pharmacies, doctors, and hospitals.",options
+Navigating to the Adverse Drug Reaction module...,adverse_drug
+Navigating to the Blood Pressure module...,blood_pressure
+Navigating to the Pharmacy Search module...,pharmacy_search
+Navigating to the Hospital Search module...,hospital_search
+Navigating to the Blood Pressure Search module...,blood_pressure_search
+Navigating to the Symptoms module...,symptoms
+Navigating to the Doctor Search module...,doctor
+Navigating to the Medication module...,medication
