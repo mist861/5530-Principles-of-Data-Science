@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit_authenticator as stauth
 
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
@@ -14,6 +15,13 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS, cross_origin
 import pickle
 
+import yaml
+from yaml.loader import SafeLoader
+with open('streamlit_auth.yaml') as file:
+    config = yaml.load(file, Loader=SafeLoader)
+
+nltk.download('punkt')
+
 stemmer = LancasterStemmer()
 model = keras.saving.load_model("nn_model.keras")
 with open ('classes.pickle', 'rb') as file:
@@ -22,7 +30,23 @@ with open ('words.pickle', 'rb') as file:
     words = pickle.load(file)
 responses_df = pd.read_csv('responses_dataset_augmented.csv')
 
-nltk.download('punkt')
+authenticator = stauth.Authenticate(
+    config['credentials'],
+    config['cookie']['name'],
+    config['cookie']['key'],
+    config['cookie']['expiry_days'],
+    config['preauthorized']
+)
+
+authenticator.login()
+
+if st.session_state["authentication_status"]:
+    authenticator.logout()
+    st.write(f'Welcome *{st.session_state["name"]}*')
+elif st.session_state["authentication_status"] is False:
+    st.error('Username/password is incorrect')
+elif st.session_state["authentication_status"] is None:
+    st.warning('Please enter your username and password')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
@@ -66,7 +90,9 @@ if prompt := st.chat_input():
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
     response = classify_local(prompt)
-    if response[0][0] in responses_df['intent'].values:
+    if float(response[0][1]) < 0.6:
+        msg = responses_df.responses[responses_df['intent'] == 'noanswer'].item()
+    elif response[0][0] in responses_df['intent'].values:
         msg = responses_df.responses[responses_df['intent'] == response[0][0]].item()
     else:
         msg = responses_df.responses[responses_df['intent'] == 'noanswer'].item()
