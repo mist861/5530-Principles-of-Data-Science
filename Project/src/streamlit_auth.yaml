@@ -1,0 +1,13 @@
+credentials:
+  usernames:
+    tempuser:
+      email: temp@user.com
+      name: TEMPUSER
+      password: $2b$12$7dpa1Q1iUeGKBiSd1qkSFeeFejaMWsflxE18KuQHmZwdqcT1sdV82
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - melsby@gmail.com
