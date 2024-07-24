@@ -6,6 +6,7 @@ This is the Team Project for Team Rocket in 5530 Principles of Big Data Science 
 * data_augmented: Contains the combined, augmented intents and the modified responses datasets
 * results: Contains the saved model files and their dependencies
 * src: Contains the Jupyter notebook with the relevant code and the Python scripts required to run the chatbot
+* presentation: Contains the PowerPoint slide deck used in the class presentation
 
 ## Execution:
 
